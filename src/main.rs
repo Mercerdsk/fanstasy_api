@@ -1,6 +1,7 @@
 mod api;
 mod models;
 mod repository;
+mod logger;
 use actix_web::{web, App, HttpServer,http::header};
 use actix_cors::Cors;
 use dotenv::dotenv;

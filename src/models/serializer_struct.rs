@@ -6,3 +6,7 @@ pub struct Pseres{
     provider_id: i32,
 }
 
+#[derive(Serialize)]
+pub struct Info {
+    pub name: String,
+}
